@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptSlider" id="Hum Level" x="220.0" y="94.0" width="140.0"
+             height="60.0" pluginParameterName="HumGain" defaultValue="0.05000000074505806"
+             mode="NormalizedPercentage" suffix="%" middlePosition="0.5" processorId="Effects"
+             parameterId="Hum Gain"/>
+  <Component type="ScriptSlider" id="Hiss Level" x="220.0" y="219.0" processorId="Effects"
+             parameterId="Hiss Gain" width="140.0" height="60.0" mode="NormalizedPercentage"
+             suffix="%" middlePosition="0.5" defaultValue="0.05000000074505806"/>
+  <Component type="ScriptSlider" id="Hiss Tone" x="220.0" y="344.0" processorId="Effects"
+             parameterId="Hiss Tone" width="140.0" height="60.0" mode="NormalizedPercentage"
+             suffix="%" middlePosition="0.5" defaultValue="0.5"/>
+  <Component type="ScriptSlider" id="Output" x="220.0" y="470.0" width="140.0"
+             height="60.0" processorId="Effects" parameterId="Wet Mix" mode="NormalizedPercentage"
+             suffix="%" middlePosition="0.5" defaultValue="0.5"/>
+  <Component type="ScriptLabel" id="Label1" x="90.0" y="30.0" text="AmpFilth by Infinite Possibility Media"
+             width="430.0" height="50.0" fontSize="46.0" fontName="Metal Mania"/>
+</ContentProperties>

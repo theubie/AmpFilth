@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptImage" id="Image1" x="0.0" y="0.0" fileName="{PROJECT_FOLDER}Base Plate.png"
+             width="600.0" height="620.0"/>
+  <Component type="ScriptSlider" id="Hum Level" x="110.0" y="110.0" width="128.0"
+             height="128.0" pluginParameterName="HumGain" defaultValue="0.05000000074505806"
+             mode="NormalizedPercentage" suffix="%" middlePosition="0.5" processorId="Effects"
+             parameterId="Hum Gain" filmstripImage="{PROJECT_FOLDER}knob.png"
+             numStrips="128.0"/>
+  <Component type="ScriptSlider" id="Hiss Level" x="342.0" y="110.0" processorId="Effects"
+             parameterId="Hiss Gain" width="128.0" height="128.0" mode="NormalizedPercentage"
+             suffix="%" middlePosition="0.5" defaultValue="0.05000000074505806"
+             filmstripImage="{PROJECT_FOLDER}knob.png" numStrips="128.0"/>
+  <Component type="ScriptSlider" id="Hiss Tone" x="110.0" y="313.0" processorId="Effects"
+             parameterId="Hiss Tone" width="128.0" height="128.0" mode="NormalizedPercentage"
+             suffix="%" middlePosition="0.5" defaultValue="0.5" filmstripImage="{PROJECT_FOLDER}knob.png"
+             numStrips="128.0"/>
+  <Component type="ScriptSlider" id="Output" x="342.0" y="313.0" width="128.0"
+             height="128.0" processorId="Effects" parameterId="Wet Mix" mode="NormalizedPercentage"
+             suffix="%" middlePosition="0.5" defaultValue="0.5" filmstripImage="{PROJECT_FOLDER}knob.png"
+             numStrips="128.0" showTextBox="0"/>
+</ContentProperties>

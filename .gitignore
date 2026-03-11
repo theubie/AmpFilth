@@ -1,0 +1,12 @@
+/Binaries/
+/*.vst3
+/*.dll
+/*.exe
+/*.pdb
+/*.lib
+/*.exp
+/*.iobj
+/*.obj
+/*.recipe
+/*.tlog
+/*.zip
